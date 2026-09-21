@@ -19,7 +19,9 @@ section.secondary {
 
 .img-responsive {
   width: 100%;
-  display: block;
+}
+
+.secondary img {
   aspect-ratio: 1/1;
 }
 
@@ -120,6 +122,27 @@ main p {
   line-height: 1.5;
   color: #272044;
   opacity: 0.7;
+}
+
+main img {
+  filter: sepia(20%) contrast(80%);
+}
+
+table {
+  width: 100%;
+  text-align: center;
+  border: 1px solid #272044;
+  padding: 10px;
+}
+
+th {
+  color: #272044;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+td {
+  font-size: 16px;
 }
 
 footer {
@@ -236,6 +259,13 @@ footer a {
   }
 
   header h3 {
+    font-size: 12px;
+  }
+
+  th {
+    font-size: 20px;
+  }
+  td {
     font-size: 12px;
   }
 
